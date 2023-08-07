@@ -5,7 +5,7 @@ import java.util.Scanner; //Importing the Scanner class from the Java standard l
 public class FibonacciSequence { //This is the start of our class named 'FibonacciSequence'.
 
     public static void main(String[] args) { //This is the main method where the execution of the program starts.
-
+// new change
         Scanner scan = new Scanner(System.in); //Creating a new Scanner object that reads from the standard input stream (keyboard).
 
         System.out.println("What is the fibonacci term number"); //Asking the user to input the term number for Fibonacci series.
