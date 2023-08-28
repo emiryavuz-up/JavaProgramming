@@ -5,7 +5,6 @@ public class FrequencyOfCharacter02 {
     public static void main(String[] args) {
 
         String str = "aabcccd";
-
         String result = "";
 
         for (int i = 0; i < str.length(); i++) {
