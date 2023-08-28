@@ -1,6 +1,6 @@
 package day37_Inheritance.phoneTask;
 
-public class iPhone extends Phone{
+public final class iPhone extends Phone{
 
     // iPhone has instances => we use constructor to set it, but all iPhones have Apple as brand that's why it is not given as parameter
     // but set directly // brand will always be set to "Apple"
@@ -13,13 +13,13 @@ public class iPhone extends Phone{
     //  so use the shortcut, and it generates you the iPhone constructor which allows you to set all the instances of super class Phone
     //  we can manually add things that super class does not have but this class should have such as FaceTime which isn't exclusive to Phone(Super class)
     //  facetime is unique to iPhone not all the phones, so it's added manually
-    //  sub class can have it's own fields and methods
+    //  subclass can have its own fields and methods
 
-    public void faceTime(long phoneNumber){
+    public final void faceTime(long phoneNumber){
         System.out.println(brand + " " + model + " " + " is having a FaceTime with " + phoneNumber);
     } // faceTime method which is unique to iPhone created here
 
-    //method overloading occured here by giving a different parameter
+    //method overloading occurred here by giving a different parameter
     public void faceTime(String email){
         System.out.println(brand + " " + model + " " + " is having a FaceTime with " + email);
     }
@@ -28,7 +28,7 @@ public class iPhone extends Phone{
 }
 
 /*
-2 Create a sub class of Phone named IPhone:
+2 Create a subclass of Phone named IPhone:
 				Variables:
 					brand, model, size, price, color
 

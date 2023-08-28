@@ -14,7 +14,7 @@ public class Teacher extends Employee {
 
 }
 /*
- Create the sub class of Employee named Teacher:
+ Create the subclass of Employee named Teacher:
 			variables:
 				name, gender, age, id, jobTitle, salary
 

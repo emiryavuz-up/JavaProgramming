@@ -41,7 +41,5 @@ public class NumbersFrom1TillUpperBound {
 
         //Printing the total sum of numbers.
         System.out.println("Summary of numbers = " + sum);
-
-        scan.close();
     }
 }

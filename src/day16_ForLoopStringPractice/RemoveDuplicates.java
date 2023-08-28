@@ -13,6 +13,7 @@ public class RemoveDuplicates {
         String ch = "" +str.charAt(i); // represents each character of str
 
 
+            // add only when result does not contain the same value
         if(!result.contains(ch)){ // if the character is not contained in the result //result in tersini ekle aynisni bulursan ekleme demek`
             result += ch; // char will be added to the result
 

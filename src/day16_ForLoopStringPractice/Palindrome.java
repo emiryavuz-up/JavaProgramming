@@ -8,13 +8,13 @@ public class Palindrome {
 
     String word = "Racecar";
 
-    String reversed = ""; // to compare the original result if its equal to palindrome
+    String reversed = ""; // to compare the original result if it's equal to palindrome
 
         for (int i = word.length()-1; i >= 0 ; i--) {
            reversed += word.charAt(i);
         }
 
-        boolean isPalindrome = word.equalsIgnoreCase(reversed); // case sensitive "word" equals to "reversed (each char)"
+        boolean isPalindrome = word.equalsIgnoreCase(reversed); // case-sensitive "word" equals to "reversed (each char)"
 
         System.out.println(isPalindrome);
     /*

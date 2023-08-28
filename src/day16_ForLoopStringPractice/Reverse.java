@@ -46,6 +46,6 @@ public class Reverse {
 					Simushy
 
 				output:
-					noopS nedooW // data and to store this a variable is created named result
+					yhsumiS // data and to store this a variable is created named result
 
  */

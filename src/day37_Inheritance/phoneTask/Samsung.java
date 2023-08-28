@@ -1,6 +1,6 @@
 package day37_Inheritance.phoneTask;
 
-public class Samsung extends Phone {
+public final class Samsung extends Phone {
     // constructor of samsung class added to use super class' constructor => otherwise we get compiler error because there isn't default constructor => so we need to set it manually
     public Samsung(String model, String size, double price, String colour) {
         super("Samsung", model, size, price, colour);

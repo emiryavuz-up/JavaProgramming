@@ -1,6 +1,6 @@
 package day37_Inheritance.phoneTask;
 
-public class Nokia extends Phone{ // letting nokia extend phone class to use it's features
+public final class Nokia extends Phone{ // letting nokia extend phone class to use it's features
     // we set Nokia's own instances by calling super classes' constructor
 
     // we don't need the argument of brand => so we should not give it as parameter

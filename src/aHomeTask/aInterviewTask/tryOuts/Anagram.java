@@ -20,7 +20,7 @@ public class Anagram {
 
             boolean anagram = Arrays.equals(ch1, ch2);
 
-            System.out.println("anagram = " + anagram);
+            System.out.println("Anagram Check: " + anagram);
         }
 
     }

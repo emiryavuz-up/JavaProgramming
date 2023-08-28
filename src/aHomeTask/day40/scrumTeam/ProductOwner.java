@@ -7,7 +7,7 @@ public class ProductOwner extends Employee{
     }
 
     public void ownTheProduct(){
-        System.out.println(getName() + ", " + getJobTitle() + " is owning the product??? Yeah this guy's weird.");
+        System.out.println(getName() + ", " + getJobTitle() + " owns the product??? Yeah this guy's weird.");
     }
 
 

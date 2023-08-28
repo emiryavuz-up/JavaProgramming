@@ -32,7 +32,7 @@ public class Employee extends Person{
     public void setJobTitle(String jobTitle) {
         if(jobTitle == null || jobTitle.isEmpty()){
             System.err.println("Invalid Job Title: " + jobTitle);
-            System.exit(1);
+            return;
         }
         boolean hasNumber = false;
         for (char each : jobTitle.toCharArray()) {

@@ -8,7 +8,7 @@ public class ClassMates {
         System.out.println("");
         System.out.println("Sikinti Yok Baskan Huseyin");
         System.out.println("");
-        System.out.println("Koca Yurekli Ogremten Rovshan");
+        System.out.println("Koca Yurekli Ogretmen Rovshan");
 
 
     }

@@ -1,6 +1,9 @@
 package day37_Inheritance.phoneTask;
 
-public class Phone { // parent class: only contains the common features of all the sub classes
+public class Phone { // parent class: only contains the common features of all the subclasses
+    // can not make if final ==> in case it's final Phone class can not contain subclasses
+// only subclasses can be final
+
 
     public String brand; // not static because it will have different copies for different objects
     public String model; // instance and not static to create more than one copy of model

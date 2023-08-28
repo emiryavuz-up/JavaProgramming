@@ -15,9 +15,9 @@ public class DigitsLettersSpecialChars {
 
         for (int i = 0; i < str.length(); i++) { // i: index numbers of str (0 ~ last index)
 
-            char ch = str.charAt(i); // her bir karakteri al // each character in the "str"
+            char ch = str.charAt(i); // get each character in the "str" assign it to char ch
 
-            System.out.print(ch); // tum karakterleri yazdir
+            System.out.print(ch); // print all the characters
 
             if(ch >= '0' && ch <= '9'){ // also ascii table helps us to specify if its digit or not
                 digits += ch; // digits i yukarida bulduktan sonra ch ye assign et

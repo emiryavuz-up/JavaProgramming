@@ -6,7 +6,7 @@ public class ScrumMaster extends Employee{
     }
 
     public void scrumMastering(){
-        System.out.println(getName() + ", " + getJobTitle() + " is being a scrum master. Yeah that's it.");
+        System.out.println(getName() + ", " + getJobTitle() + " is being a scrum master. That's all.");
     }
 
 

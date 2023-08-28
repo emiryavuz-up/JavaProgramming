@@ -82,6 +82,7 @@ public class MergingArrays {
         for (int l = 0; l < ch2.length; l++) {
             totalCh[ch1.length + l] = ch2[l];
         }
+
         System.out.println(Arrays.toString(totalCh));
 
 
