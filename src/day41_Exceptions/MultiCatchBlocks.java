@@ -22,6 +22,16 @@ public class MultiCatchBlocks {
         }
         // if the fish is never caught, the program will be terminated and the exit code will be 1 because exception is still there
 
+        System.out.println("Test Completed");
+
+        System.out.println("-------------------------------------------");
+
+        try {
+            System.out.println("Java".charAt(-1));
+        }catch (RuntimeException e){
+            e.printStackTrace();
+        }
+
     }
 
 }
