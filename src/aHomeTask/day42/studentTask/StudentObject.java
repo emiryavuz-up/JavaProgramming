@@ -26,6 +26,7 @@ public class StudentObject {
         graduateStudent1.study();
 
 
+
     }
 
 
