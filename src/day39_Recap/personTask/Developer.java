@@ -15,6 +15,7 @@ public class Developer extends Employee{ // developer gets richer than Employee 
     @Override
     public void work() {System.out.println(getJobTitle() + ", " + getName() + " is developing the software");
     }
+
 }
 
 /*
