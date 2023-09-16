@@ -10,6 +10,10 @@ public final class Cat extends Animal implements Playable{
 
     }
 
+    public void meow(){
+        System.out.println(getAge() + " is meowing.");
+    }
+
     public void scratch(){
         System.out.println(getAge() + " is scratching.");
     }
