@@ -36,6 +36,8 @@ public class ShippingAddress {
 
         randomKeyword.close();
 
+        System.out.println(fullName + "\n" + buildingNumber);
+
 
         /*
         enter your full name ( nextLine() )

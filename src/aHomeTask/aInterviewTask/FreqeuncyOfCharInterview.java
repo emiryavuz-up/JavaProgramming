@@ -4,7 +4,7 @@ public class FreqeuncyOfCharInterview {
 
     public static void main(String[] args) {
 
-        String str = "aabcccdeeeeeeee";
+        String str = "aaabccc";
 
         String result = ""; // a2b1c3d1
 

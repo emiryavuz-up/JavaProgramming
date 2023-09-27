@@ -20,11 +20,11 @@ public class FirstUniqueElements {
         list.add(5);
 
 
-        for (Integer each : list) {
+        for (Integer each : list) { // 1 // 1
 
             int frequency = 0; // temporary value for frequency
 
-            for (Integer element : list) {
+            for (Integer element : list) { // 1,1,1,2,3,3,4,5,5
                 if (element == each) {
                     frequency++;
                 }
