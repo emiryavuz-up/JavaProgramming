@@ -20,7 +20,7 @@ public class MapMethods {
         students.put("Student2", 60);
         students.put("Student3", 70);
         students.put("Student4", 80);
-        students.put("Student5", 90);
+        students.put("Student5", 96);
         students.put("Student6", 100);
         students.put("Student7", 40);
 
@@ -63,7 +63,38 @@ public class MapMethods {
         System.out.println(students);
         System.out.println(students.size());
 
+        System.out.println("----------------------------");
 
+        // how many students has the score of 95 or greater
+        int count = 0;
+        for (Integer eachGrade : students.values()) {
+            if(eachGrade >= 95){
+                // if each score is more than 95 or greater we increase the count
+                count++;
+            }
+        }
+        System.out.println(count);
+
+        int count2= 0;
+
+        // Iterate the Keys of the Map
+        // We need to call KeySet method which returns Collection, after we can apply each loop
+        for (String eachKey : students.keySet()) {
+            Integer eachScore = students.get(eachKey);
+            if(eachScore >= 95){
+                count2++;
+            }
+        }
+        System.out.println(count2);
+
+        System.out.println("----------------------------------------");
+
+        // Entry contains keys and values
+        for (Map.Entry<String, Integer> entry : students.entrySet()) {
+            System.out.println(entry);
+            System.out.println(entry.getKey()); // only returns the Keys
+            System.out.println(entry.getValue()); // only returns the Values
+        }
 
     }
 

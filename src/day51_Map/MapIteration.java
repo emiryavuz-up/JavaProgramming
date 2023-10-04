@@ -1,9 +1,6 @@
 package day51_Map;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class MapIteration {
 
@@ -47,6 +44,7 @@ public class MapIteration {
 
         for (String key : students.keySet()) { // gets each key
             Integer value = students.get(key); // gets the value
+
             if(value >= 90){
                 earlyBirds.put(key, value);
             }else{
@@ -59,8 +57,47 @@ public class MapIteration {
         System.out.println(angryBirds);
 
         // convert students Map to Set which allows us to manipulate the data
+        // after this you can also convert to List, Array etc...
         Set<String> names = students.keySet();
 
+        System.out.println("---------------------------");
+
+        // Collection<Integer> scores = students.values();
+        // List contains all the values of the students which also has index numbers
+        List<Integer> scores = new ArrayList<>( students.values() );
+
+        for (Integer each : students.values()) { // for each is available for any data structure
+
+        }
+
+        System.out.println("---------------------");
+
+        // Find the Key with the max value
+        // first we'll find the maximum score
+        // first we find the min value and then compare it with every single score in the Map
+        // Therefore we iterate the value and use values() method and it's return type is Collection
+        // So we can access each score by using for loop
+
+        int maxScore = Integer.MIN_VALUE;
+        int minScore = Integer.MAX_VALUE;
+
+        for (Integer score : students.values()) {
+            if(score > maxScore){
+                maxScore = score;
+            }
+
+            if(score < minScore){
+                minScore = score;
+            }
+        }
+        System.out.println("maxScore = " + maxScore);
+        System.out.println("minScore = " + minScore);
+
+        System.out.println("----------------------------");
+
+        // By using Collections Utility max/min method and values() method we can find the min/max value of the students
+        int max = Collections.max( students.values() );
+        int min = Collections.min( (students.values()) );
 
 
     }
