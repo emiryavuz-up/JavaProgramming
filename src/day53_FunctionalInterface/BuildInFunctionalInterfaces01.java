@@ -94,8 +94,21 @@ public class BuildInFunctionalInterfaces01 {
 
         // convert List of Integer to Array
         Function<List, int[]> convertToArray = (a) -> {
-
+            int[] result = new int[a.size()];
+            for (int i = 0; i < a.size(); i++) {
+                result[i] = (int) a.get(i);
+            }
+            return result;
         };
+
+
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        int[] result = convertToArray.apply(numbers);
+
+        // create a function tht can return the maximum number from an int array
+        // create a function that can swap the first and last elements f an array
+        // create a function that can reverse an array and returns it
+        // create a function that can reverse a List
 
 
 
