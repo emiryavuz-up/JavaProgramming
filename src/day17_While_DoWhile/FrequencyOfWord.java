@@ -9,7 +9,10 @@ public class FrequencyOfWord {
         int frequency = 0;
         int caps = 0;
 
-        for (int i = 0; i <= str.length()-4; i++) { // /i: 1,2,3,4,5,6,7 // to not go out of index bound!! -4 is used because next statement will go 4 by 4 and then eventually will go out of bound so here it will decrement that value by 4 each time it adds 4
+        for (int i = 0; i <= str.length()-4; i++) { // /i: 1,2,3,4,5,6,7 // to not go out of index bound!! -4
+            // is used because next statement will go 4 by 4 and then eventually
+            // will go out of bound so here it will decrement that value by 4 each time it adds 4
+
            String eachSub = str.substring(i, i+4); // this would get out of index bound so above we substract at the same time
            // System.out.println(eachSub);
 

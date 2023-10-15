@@ -33,7 +33,7 @@ public class Login {
                 attempts--;
             }
 
-            if(u.equals("CodeBastards") && u.equals("CodeBastards123")){
+            if(u.equals("CodeBastards") && p.equals("CodeBastards123")){
                 System.out.println("Logged in");
             }else{
                 System.err.println("Your account is locked."); // if user enters more than 3 wrong answer

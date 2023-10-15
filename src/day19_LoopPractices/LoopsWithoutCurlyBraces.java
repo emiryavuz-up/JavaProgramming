@@ -6,7 +6,7 @@ public class LoopsWithoutCurlyBraces {
 
         for (int i = 0; i < 5; i++)
             System.out.println("CodeBastards");
-            System.out.println("Batch 25");
+            System.out.println("something");
 
 
 

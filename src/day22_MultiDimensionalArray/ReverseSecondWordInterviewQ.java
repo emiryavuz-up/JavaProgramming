@@ -17,8 +17,8 @@ public class ReverseSecondWordInterviewQ {
         for (int i = words[1].length()-1; i >= 0 ; i--) {
 
            reversedVersion += words[1].charAt(i); // evoL
-
         }
+
         System.out.println(reversedVersion); // evoL
 
     //    sentence = sentence.replaceFirst(words[1], reversedVersion);

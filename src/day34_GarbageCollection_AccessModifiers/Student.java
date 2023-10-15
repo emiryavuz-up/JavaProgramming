@@ -30,6 +30,7 @@ class StudentObject {
         Student student1 = new Student("Jimmy");
         Student student2 = new Student("Kimmy");
 
+
         System.out.println(student1);
         System.out.println(student2);
 

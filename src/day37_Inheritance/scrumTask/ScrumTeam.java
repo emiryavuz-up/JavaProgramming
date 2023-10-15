@@ -53,13 +53,13 @@ public class ScrumTeam { // every single Scrum Team has PO BA AND SM
     }
 
     public String toString() { // we modified the toString method as we wanted
-        return "ScrumTeam\n" +
-                "PO = " + PO.name + // every PO has a name
-                ", BA = " + BA.name + // every BA has a name
-                ", SM = " + SM.name + // every SM has a name
-                ", testers = " + testers +
-                ", number of testers = " + testers.size() +
-                ", developers = " + developers +
-                ", number of developers = " + developers.size();
+        return "ScrumTeam:" +
+                "\nPO = " + PO.name + // every PO has a name
+                "\nBA = " + BA.name + // every BA has a name
+                "\nSM = " + SM.name + // every SM has a name
+                "\nTesters = " + testers +
+                "\nNumber of testers = " + testers.size() +
+                "\nDevelopers = " + developers +
+                "\nNumber of developers = " + developers.size();
     }
 }

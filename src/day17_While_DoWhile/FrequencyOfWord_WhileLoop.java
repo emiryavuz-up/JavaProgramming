@@ -12,7 +12,6 @@ public class FrequencyOfWord_WhileLoop {
         while(str.contains("Java")){
             str = str.replaceFirst("Java", ""); // this is to delete first Java // string is immutable so we assigned it back
             frequency++; // to check how many times the condition is executed
-
         }
 
         System.out.println(frequency);
