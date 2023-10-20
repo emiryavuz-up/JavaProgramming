@@ -1,6 +1,7 @@
 package JavaRecap.day44_CarTask;
 
 import java.util.Collection;
+import java.util.Collections;
 
 public abstract class Car {
 
@@ -16,11 +17,14 @@ public abstract class Car {
             throw new RuntimeException();
         }
         this.make = make;
+
+
         if(model == null){
             System.err.println("Model can't be null/empty.");
             throw new RuntimeException();
         }
         this.model = model;
+
         if(year < 0){
             System.err.println("Year can't be negative.");
             throw new RuntimeException();

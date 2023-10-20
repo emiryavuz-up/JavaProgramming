@@ -13,6 +13,7 @@ public abstract class Person { // only responsible for creating the method, comp
         setGender(gender);
     }
 
+
     // sleep time may change per person, so it's abstract ==> it will be used with multiple implementations therefore
     // a body is not given
     // multiple implementation is needed for the sleep method, we do not worry about the details in the super class
